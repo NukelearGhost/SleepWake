@@ -32,7 +32,7 @@ _For the sake of clarity, this guide follows top to bottom starting in the "Conf
 
 ```powershell
 
-$runAs | the user that runs the scheduled task. _Default: SYSTEM_
+$runAs | the user that runs the scheduled task. Default: SYSTEM
 
 $wkdyHibTime | DateTime representing the time to hibernate the computer each week day. Default: 12am
 $wkdyWakeTime | DateTime representing the time to wake the computer each week day. Default: 8am
