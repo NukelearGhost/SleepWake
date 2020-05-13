@@ -1,6 +1,6 @@
 # SleepWake
 ## Description
- Powershell script that will put your computer into hibernation and wake it from hibernation at specified times via Scheduled Tasks. _Requires Administrator privileges to local machine to install_.
+ PowerShell script that will put your computer into hibernation and wake it from hibernation at specified times via Scheduled Tasks. _Requires Administrator privileges to local machine to install_.
 
  Script also runs Microsoft Updates and reboots at specified times.
 
@@ -14,12 +14,12 @@ The default schedule hibernates at Midnight and wakes at 8am Mon - Fri; and hibe
 ### Installation
 1. Place the file _SleepWake.ps1_ in a location accessible by the _SYSTEM_ user. This will be the location the scheduled tasks execute the script from so _do not move the file after you install_ (more below).
 2. [Optional] Open _SleepWake.ps1_ in your text editor of choice and update the configuration as needed (see _Config_ below)
-3. Open the location from step one in an _elevated Powershell prompt_.
-4. [Optional, recommended if using custom config] Test your config by running the following in your powershell window  
+3. Open the location from step one in an _elevated PowerShell prompt_.
+4. [Optional, recommended if using custom config] Test your config by running the following in your PowerShell window  
 ```powershell
 PS> .\SleepWake.ps1 -testConfig
 ```
-5. Install SleepWake using current configuration by running the following in our powershell winddow
+5. Install SleepWake using current configuration by running the following in our PowerShell window
 ```powershell
 PS> .\Sleepwake.ps1 -install
 ```
